@@ -1,8 +1,0 @@
-package main.java.com.buuz135.MSHelper;
-
-import cpw.mods.fml.common.Mod;
-
-@Mod(modid = "MSHelper", name = "Multiblock Structure Helper", version = "1.7.10-0.0.1ALPHA")
-public class MSHelper {
-
-}
