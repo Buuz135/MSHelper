@@ -1,6 +1,7 @@
 package com.buuz135.mshelper;
 
 import com.buuz135.mshelper.handler.ConfigHandler;
+import com.buuz135.mshelper.init.ModBlock;
 import com.buuz135.mshelper.proxy.IProxy;
 import com.buuz135.mshelper.reference.Reference;
 
@@ -24,6 +25,7 @@ public class MSHelper {
 	public void preInit(FMLPreInitializationEvent event) {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigHandler());
+		ModBlock.init();
 	}// Network, Config, Blocks, Items
 
 	@Mod.EventHandler
