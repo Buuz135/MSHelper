@@ -18,7 +18,7 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-0.0.1ALPHA"
-group= "com.buuz135.MSHelper" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.buuz135.mshelper" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "MSHelper"
 
 minecraft {

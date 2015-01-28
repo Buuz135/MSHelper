@@ -1,4 +1,4 @@
-package com.buuz135.MSHelper.proxy;
+package com.buuz135.mshelper.proxy;
 
 public class ClientProxy extends CommonProxy{
 
